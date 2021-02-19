@@ -2,5 +2,33 @@
 @import "libs/reset";
 
 /* @import url("https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/12.0.1/sanitize.min.css"); */
-/* @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"); */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
 /* @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"); */
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 100vh;
+    background-color: #0e1623;
+
+    &__title {
+        position: relative;
+        font-size: 96px;
+        line-height: 120%;
+        text-align: center;
+        color: #00fe77;
+        -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
+    }
+
+    &__title span {
+        position: relative;
+        display: inline-block;
+    }
+}
